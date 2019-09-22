@@ -1,0 +1,4364 @@
+{
+  "type": "Workspace",
+  "name": "Weak-hands buster - BTC - 1hr",
+  "rootNodes": [
+    {
+      "id": "fce21dbd-5fd6-47e0-9345-c28e644b68e5",
+      "type": "Situation",
+      "name": "New Situation",
+      "conditions": [
+        {
+          "id": "46647ad6-5e0f-4cb1-b9f3-8340ec47e026",
+          "type": "Condition",
+          "name": "New Condition",
+          "code": {
+            "id": "c9ae0714-f350-4852-91d9-be97745b6a6d",
+            "type": "Code",
+            "code": "percentageBandwidth.movingAverage >= 100",
+            "savedPayload": {
+              "position": {
+                "x": 220.69041112373313,
+                "y": 32.780749836865326
+              },
+              "targetPosition": {
+                "x": 109.95403311173392,
+                "y": 32.765965485933116
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": false
+              },
+              "uiObject": {}
+            }
+          },
+          "savedPayload": {
+            "position": {
+              "x": 109.95403311173392,
+              "y": 32.765965485933116
+            },
+            "targetPosition": {
+              "x": 25,
+              "y": 32.74964413832632
+            },
+            "floatingObject": {
+              "isPinned": false,
+              "isFrozen": false,
+              "isCollapsed": false,
+              "isTensed": false
+            },
+            "uiObject": {}
+          }
+        }
+      ],
+      "savedPayload": {
+        "position": {
+          "x": 25,
+          "y": 32.74964413832632
+        },
+        "targetPosition": {
+          "x": 25,
+          "y": 32.74964413832632
+        },
+        "floatingObject": {
+          "isPinned": false,
+          "isFrozen": false,
+          "isCollapsed": false,
+          "isTensed": true
+        },
+        "uiObject": {}
+      }
+    },
+    {
+      "id": "7ecb2957-fbf7-45b7-b0f2-b8a5a2d8e293",
+      "type": "Situation",
+      "name": "New Situation",
+      "conditions": [
+        {
+          "id": "9f0033d6-70ba-45bf-b19a-67619df6ce66",
+          "type": "Condition",
+          "name": "New Condition",
+          "code": {
+            "id": "50fff1ae-dfea-41f9-b037-fd984dd1c36b",
+            "type": "Code",
+            "code": "candle.close < bollingerBand.movingAverage",
+            "savedPayload": {
+              "position": {
+                "x": 49976.666666666664,
+                "y": 49734.865625999526
+              },
+              "targetPosition": {
+                "x": 49976.666666666664,
+                "y": 49871.78981333319
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": false
+              },
+              "uiObject": {}
+            }
+          },
+          "savedPayload": {
+            "position": {
+              "x": 49976.666666666664,
+              "y": 49871.78981333319
+            },
+            "targetPosition": {
+              "x": 49975,
+              "y": 49975
+            },
+            "floatingObject": {
+              "isPinned": false,
+              "isFrozen": false,
+              "isCollapsed": false,
+              "isTensed": false
+            },
+            "uiObject": {}
+          }
+        },
+        {
+          "id": "71832fcf-5d3e-457d-9562-25023e82e4ee",
+          "type": "Condition",
+          "name": "New Condition",
+          "code": {
+            "id": "a8391d07-8843-4678-bfed-cbe2530dfc9f",
+            "type": "Code",
+            "code": "candle.previous.close < bollingerBand.previous.movingAverage",
+            "savedPayload": {
+              "position": {
+                "x": 49733.139483367486,
+                "y": 49976.666666666664
+              },
+              "targetPosition": {
+                "x": 49865.01249620213,
+                "y": 49976.666666666664
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": false
+              },
+              "uiObject": {}
+            }
+          },
+          "savedPayload": {
+            "position": {
+              "x": 49865.01249620213,
+              "y": 49976.666666666664
+            },
+            "targetPosition": {
+              "x": 49975,
+              "y": 49975
+            },
+            "floatingObject": {
+              "isPinned": false,
+              "isFrozen": false,
+              "isCollapsed": false,
+              "isTensed": false
+            },
+            "uiObject": {}
+          }
+        }
+      ],
+      "savedPayload": {
+        "position": {
+          "x": 49975,
+          "y": 49975
+        },
+        "targetPosition": {
+          "x": 49975,
+          "y": 49975
+        },
+        "floatingObject": {
+          "isPinned": false,
+          "isFrozen": false,
+          "isCollapsed": false,
+          "isTensed": true
+        },
+        "uiObject": {}
+      }
+    },
+    {
+      "id": "06cca4ab-3cec-4c4a-bf19-5efbe5eaa25b",
+      "type": "Definition",
+      "name": "Weak-hands buster - BTC - 1hr",
+      "tradingSystem": {
+        "id": "a239a374-497a-43f9-8382-5277410b1c2d",
+        "type": "Trading System",
+        "name": "Weak-hands buster - BTC - 1hr",
+        "strategies": [
+          {
+            "id": "a04f9080-32e5-4e0b-8896-713016ba3fda",
+            "type": "Strategy",
+            "name": "Weak-hands buster - BTC - 1hr",
+            "triggerStage": {
+              "id": "8f05c030-e6a1-4e65-b44d-213f0e12fd83",
+              "type": "Trigger Stage",
+              "triggerOn": {
+                "id": "42e0cd22-e34e-4d51-9252-10bc615949b5",
+                "type": "Trigger On Event",
+                "situations": [
+                  {
+                    "id": "aac48055-7ba2-43af-9b39-7bf71195a3e2",
+                    "type": "Situation",
+                    "name": "New Situation",
+                    "conditions": [
+                      {
+                        "id": "d61ab29a-c3c4-4e3b-8825-245a322c431a",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "91f3043a-8e9e-43e0-aca3-d740f527e043",
+                          "type": "Code",
+                          "code": "candle.close < bollingerBand.movingAverage && candle.previous.close < bollingerBand.previous.movingAverage && candle.previous.previous.close < bollingerBand.previous.previous.movingAverage",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26086.836779782545,
+                              "y": 26061.16032216407
+                            },
+                            "targetPosition": {
+                              "x": 25946.96825358426,
+                              "y": 26075.861096647877
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25946.96825358426,
+                            "y": 26075.861096647877
+                          },
+                          "targetPosition": {
+                            "x": 25774.818741090286,
+                            "y": 26093.954739509914
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "16fc43c1-d0c3-42e3-9ba8-cba5c21bafd5",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "03a5e03d-c910-4e6c-b63f-0d018e413b02",
+                          "type": "Code",
+                          "code": "bollingerBand.deviation > 200",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25972.22521117878,
+                              "y": 26537.336930735284
+                            },
+                            "targetPosition": {
+                              "x": 25875.50718966275,
+                              "y": 26320.104697711024
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25875.50718966275,
+                            "y": 26320.104697711024
+                          },
+                          "targetPosition": {
+                            "x": 25774.818741090286,
+                            "y": 26093.954739509914
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "89b8b2f6-b215-4e21-a2c8-4aebb11c2e92",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "09012cab-d69d-4763-b014-7f984c1784dc",
+                          "type": "Code",
+                          "code": "candle.close < bollingerBand.movingAverage - bollingerBand.deviation",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25482.854100626286,
+                              "y": 26356.840882575667
+                            },
+                            "targetPosition": {
+                              "x": 25632.226214368093,
+                              "y": 26222.345627257226
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25632.226214368093,
+                            "y": 26222.345627257226
+                          },
+                          "targetPosition": {
+                            "x": 25774.818741090286,
+                            "y": 26093.954739509914
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "895c4234-e3a8-477d-a5a9-582d81feecc0",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "5c98aae6-6601-405b-bc15-e8242092ccd1",
+                          "type": "Code",
+                          "code": "chart.at02hs.percentageBandwidth.movingAverage >= 30 || chart.at03hs.percentageBandwidth.movingAverage >= 30 || chart.at04hs.percentageBandwidth.movingAverage >= 30 || chart.at06hs.percentageBandwidth.movingAverage >= 30 || chart.at08hs.percentageBandwidth.movingAverage >= 30",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25492.559357951155,
+                              "y": 25930.99220867324
+                            },
+                            "targetPosition": {
+                              "x": 25612.154215885927,
+                              "y": 26000.040332095574
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25612.154215885927,
+                            "y": 26000.040332095574
+                          },
+                          "targetPosition": {
+                            "x": 25774.818741090286,
+                            "y": 26093.954739509914
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      }
+                    ],
+                    "savedPayload": {
+                      "position": {
+                        "x": 25774.818741090286,
+                        "y": 26093.954739509914
+                      },
+                      "targetPosition": {
+                        "x": 25841.93769930964,
+                        "y": 25778.184867754313
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 25841.93769930964,
+                    "y": 25778.184867754313
+                  },
+                  "targetPosition": {
+                    "x": 25907.27563577368,
+                    "y": 25470.79404457441
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "triggerOff": {
+                "id": "d006b092-ccb8-4385-bc24-cd732f749b80",
+                "type": "Trigger Off Event",
+                "situations": [
+                  {
+                    "id": "1986b226-45b8-41f1-8a36-dee2dcd5724c",
+                    "type": "Situation",
+                    "name": "New Situation",
+                    "conditions": [
+                      {
+                        "id": "c5a3356f-a6a5-4f5e-8854-a9af8dc981d6",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "33996f6e-f51b-4667-9f26-36fc8b586eca",
+                          "type": "Code",
+                          "code": "candle.close > bollingerBand.movingAverage",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25183.409561476274,
+                              "y": 25316.931560712175
+                            },
+                            "targetPosition": {
+                              "x": 25331.286615483677,
+                              "y": 25348.363798861883
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25331.286615483677,
+                            "y": 25348.363798861883
+                          },
+                          "targetPosition": {
+                            "x": 25444.84333326608,
+                            "y": 25372.501024348243
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      }
+                    ],
+                    "savedPayload": {
+                      "position": {
+                        "x": 25444.84333326608,
+                        "y": 25372.501024348243
+                      },
+                      "targetPosition": {
+                        "x": 25645.402528529576,
+                        "y": 25415.13119730476
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 25645.402528529576,
+                    "y": 25415.13119730476
+                  },
+                  "targetPosition": {
+                    "x": 25907.27563577368,
+                    "y": 25470.79404457441
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "takePosition": {
+                "id": "7ee4a63d-8296-40a7-ab94-2f408bbe162d",
+                "type": "Take Position Event",
+                "situations": [
+                  {
+                    "id": "0b1fc454-e677-4b35-939b-1f23ae0f5045",
+                    "type": "Situation",
+                    "name": "New Situation",
+                    "conditions": [
+                      {
+                        "id": "0bd29ab1-c151-4577-9054-7a0fc2532f7e",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "c370c93e-2300-48ad-acc3-42f530112d42",
+                          "type": "Code",
+                          "code": "candle.close < bollingerBand.movingAverage && candle.previous.close < bollingerBand.previous.movingAverage && candle.previous.previous.close < bollingerBand.previous.previous.movingAverage",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25773.16900104503,
+                              "y": 25269.141567499857
+                            },
+                            "targetPosition": {
+                              "x": 25770.533601329113,
+                              "y": 25218.85514529362
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25770.533601329113,
+                            "y": 25218.85514529362
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "0dc65813-69aa-4ce5-bbfe-dc08e6ee5fdc",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "7e5c95e6-9024-4f7a-b99b-98509b0cf8bd",
+                          "type": "Code",
+                          "code": "candle.close < bollingerBand.movingAverage - bollingerBand.deviation",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25372.241238635466,
+                              "y": 25485.086603025597
+                            },
+                            "targetPosition": {
+                              "x": 25613.73401506616,
+                              "y": 25216.88170328082
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25613.73401506616,
+                            "y": 25216.88170328082
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "abd817cd-4111-41fa-be60-ea1919c64715",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "a347b184-3b9c-43d7-9c58-18e272fa7cc7",
+                          "type": "Code",
+                          "code": "chart.at02hs.bollingerChannel.direction === \"Down\"",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25421.843121476188,
+                              "y": 25070.242116328984
+                            },
+                            "targetPosition": {
+                              "x": 25487.654482197766,
+                              "y": 25066.793089061972
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25487.654482197766,
+                            "y": 25066.793089061972
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "28755f4a-480d-45a5-8144-5fb7bbdf09f5",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "3e2c9f8c-1b2d-419c-9d19-934b87857165",
+                          "type": "Code",
+                          "code": "bollingerBand.deviation > 200",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25415.65312761966,
+                              "y": 24740.74285009082
+                            },
+                            "targetPosition": {
+                              "x": 25540.651652159948,
+                              "y": 24853.29202711816
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25540.651652159948,
+                            "y": 24853.29202711816
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "c3b52801-d812-4aa8-8450-797dbade3f60",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "6dd2ef8e-c7ea-4188-b2f4-d549c336ca5d",
+                          "type": "Code",
+                          "code": "bollingerSubChannel.slope != \"Extreme\" || (chart.at08hs.bollingerChannel.direction === \"Down\" && chart.at06hs.bollingerChannel.direction === \"Down\"  && chart.at04hs.bollingerChannel.direction === \"Down\" && chart.at02hs.bollingerSubChannel.slope === (\"Extreme\" || \"Steep\") && bollingerSubChannel.period <=6)",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25730.79572836901,
+                              "y": 24460.61135966222
+                            },
+                            "targetPosition": {
+                              "x": 25740.277320055713,
+                              "y": 24641.53090665349
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25740.277320055713,
+                            "y": 24641.53090665349
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "542e7619-1192-474e-a8a0-fb917c49cf1e",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "0eee7c13-aee8-4238-86fd-1311ed4aa052",
+                          "type": "Code",
+                          "code": "candle.max - candle.min < 750",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26136.33964742943,
+                              "y": 24636.46934765794
+                            },
+                            "targetPosition": {
+                              "x": 25930.138818590545,
+                              "y": 24865.47856873456
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25930.138818590545,
+                            "y": 24865.47856873456
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "930e07f4-c28b-4c5d-90dc-d373911dd2cb",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "990141cd-cb75-4d22-85f8-7f611655a6db",
+                          "type": "Code",
+                          "code": "bollingerBand.deviation < 1000",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26020.515549958625,
+                              "y": 25038.867023834235
+                            },
+                            "targetPosition": {
+                              "x": 25854.552079562294,
+                              "y": 25047.564800759814
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 25854.552079562294,
+                            "y": 25047.564800759814
+                          },
+                          "targetPosition": {
+                            "x": 25761.81137409314,
+                            "y": 25052.425135182595
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      }
+                    ],
+                    "savedPayload": {
+                      "position": {
+                        "x": 25761.81137409314,
+                        "y": 25052.425135182595
+                      },
+                      "targetPosition": {
+                        "x": 25958.54959628652,
+                        "y": 25229.569026113484
+                      },
+                      "floatingObject": {
+                        "isPinned": true,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "1cc080d9-4e49-4e5a-918a-9d0b4b06d6b1",
+                    "type": "Situation",
+                    "name": "New Situation",
+                    "conditions": [
+                      {
+                        "id": "98cbac39-2c67-472b-ac27-aec6ddb40bd8",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "a3a29826-879d-4388-a108-39441c36102d",
+                          "type": "Code",
+                          "code": "candle.close < bollingerBand.movingAverage && candle.previous.close < bollingerBand.previous.movingAverage && candle.previous.previous.close < bollingerBand.previous.previous.movingAverage",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25657.095558306486,
+                              "y": 24920.05169914089
+                            },
+                            "targetPosition": {
+                              "x": 26097.8926107083,
+                              "y": 25098.14526858206
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26097.8926107083,
+                            "y": 25098.14526858206
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "cca2a8bc-e4a0-42df-8a2e-a4a457860a54",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "11c71b5d-7044-4d4b-ae10-5c25cb2eabdc",
+                          "type": "Code",
+                          "code": "candle.close < bollingerBand.movingAverage - bollingerBand.deviation",
+                          "savedPayload": {
+                            "position": {
+                              "x": 25983.605421667016,
+                              "y": 24708.682573832022
+                            },
+                            "targetPosition": {
+                              "x": 26091.757812176627,
+                              "y": 24912.08763695392
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26091.757812176627,
+                            "y": 24912.08763695392
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "7a85ad66-8767-4f51-98d0-19683ad79e55",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "1e76f618-a3ac-4fb9-83eb-97de1129e93a",
+                          "type": "Code",
+                          "code": "bollingerBand.previous.previous.previous.deviation > 200",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26327.14434476404,
+                              "y": 24623.35314696922
+                            },
+                            "targetPosition": {
+                              "x": 26276.026688540765,
+                              "y": 24863.84281156321
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26276.026688540765,
+                            "y": 24863.84281156321
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "1c3eb902-1840-4ff9-a143-2040c3da6fbc",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "1cd7c818-45ae-447d-ad12-663c69d88d5c",
+                          "type": "Code",
+                          "code": "chart.at02hs.bollingerChannel.direction === \"Down\"",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26684.36921114849,
+                              "y": 24780.022349459727
+                            },
+                            "targetPosition": {
+                              "x": 26468.40616580241,
+                              "y": 24948.751172645236
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26468.40616580241,
+                            "y": 24948.751172645236
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "2dd164fe-9197-4b40-b8c2-c73503cc1fa7",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "b85b9bdf-ebf6-4c3a-ab00-0b82484cff3d",
+                          "type": "Code",
+                          "code": "if (bollingerSubChannel.slope != \"Extreme\") {true} else {if (bollingerSubChannel.period <=7) {true} else {false}}",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26654.487789887924,
+                              "y": 25161.203713049774
+                            },
+                            "targetPosition": {
+                              "x": 26558.11936219056,
+                              "y": 25157.838453399872
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26558.11936219056,
+                            "y": 25157.838453399872
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "508ccff3-0500-4d97-8795-84ec971e9b6e",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "3cda3e1f-537c-4a9c-9fba-c221c12dd775",
+                          "type": "Code",
+                          "code": "chart.at02hs.percentageBandwidth.movingAverage >= 70 || chart.at02hs.percentageBandwidth.previous.movingAverage >= 70 || chart.at02hs.percentageBandwidth.previous.previous.movingAverage >= 70 || chart.at02hs.percentageBandwidth.previous.previous.previous.movingAverage >= 70 || chart.at02hs.percentageBandwidth.previous.previous.previous.previous.movingAverage >= 70 || chart.at02hs.percentageBandwidth.previous.previous.previous.previous.previous.movingAverage >= 70",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26493.605523572918,
+                              "y": 25395.783729349543
+                            },
+                            "targetPosition": {
+                              "x": 26388.46605633132,
+                              "y": 25301.11572782989
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26388.46605633132,
+                            "y": 25301.11572782989
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": true,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "d906e914-4695-4a87-9b40-bc09d420b3fa",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "49fa1f6c-31c8-4903-baca-54b00ced89ad",
+                          "type": "Code",
+                          "code": "bollingerBand.deviation < 1000",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26278.33881457856,
+                              "y": 25588.925063767674
+                            },
+                            "targetPosition": {
+                              "x": 26248.331760941768,
+                              "y": 25375.413782862488
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26248.331760941768,
+                            "y": 25375.413782862488
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      {
+                        "id": "273ada5d-4442-448f-a2b4-d6505e96e201",
+                        "type": "Condition",
+                        "name": "New Condition",
+                        "code": {
+                          "id": "cd3f2a10-647d-4971-a96e-2b7c24df3f88",
+                          "type": "Code",
+                          "code": "candle.max - candle.min < 750",
+                          "savedPayload": {
+                            "position": {
+                              "x": 26086.30421807786,
+                              "y": 25353.570432909357
+                            },
+                            "targetPosition": {
+                              "x": 26142.68627002679,
+                              "y": 25263.340288357304
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": true
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        "savedPayload": {
+                          "position": {
+                            "x": 26142.68627002679,
+                            "y": 25263.340288357304
+                          },
+                          "targetPosition": {
+                            "x": 26216.074858533917,
+                            "y": 25145.89399613176
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      }
+                    ],
+                    "savedPayload": {
+                      "position": {
+                        "x": 26216.074858533917,
+                        "y": 25145.89399613176
+                      },
+                      "targetPosition": {
+                        "x": 25958.54959628652,
+                        "y": 25229.569026113484
+                      },
+                      "floatingObject": {
+                        "isPinned": true,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 25958.54959628652,
+                    "y": 25229.569026113484
+                  },
+                  "targetPosition": {
+                    "x": 25907.27563577368,
+                    "y": 25470.79404457441
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 25907.27563577368,
+                  "y": 25470.79404457441
+                },
+                "targetPosition": {
+                  "x": 26761.42124370851,
+                  "y": 25652.34829816259
+                },
+                "floatingObject": {
+                  "isPinned": true,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            "openStage": {
+              "id": "74ce460e-e723-4d53-83a9-934a6a37dd56",
+              "type": "Open Stage",
+              "initialDefinition": {
+                "id": "7cb35db4-3b57-4733-b0aa-c70860bcef15",
+                "type": "Initial Definition",
+                "stopLoss": {
+                  "id": "2187bbac-923c-43ef-878f-f4bdd505ca64",
+                  "type": "Stop",
+                  "subType": "Initial Definition Stop",
+                  "phases": [
+                    {
+                      "id": "2c76cf2c-d0b3-4e0c-a095-0cd2e35667c3",
+                      "type": "Phase",
+                      "name": "New Phase",
+                      "formula": {
+                        "id": "325e27c0-49b3-4f75-bae6-a7da8b747138",
+                        "type": "Formula",
+                        "code": "if (positionRate + positionRate * 3 / 100 > 150) {positionRate + positionRate * 3 / 100} else {150}",
+                        "savedPayload": {
+                          "position": {
+                            "x": 25882.40593382664,
+                            "y": 24241.58584105774
+                          },
+                          "targetPosition": {
+                            "x": 25955.156524854832,
+                            "y": 24017.682544730505
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      "nextPhaseEvent": {
+                        "id": "6b8bfecb-d38f-4fec-b165-5a395dd96cf8",
+                        "type": "Next Phase Event",
+                        "situations": [
+                          {
+                            "id": "a60d1fc4-6804-41a4-ab5b-0869fd254957",
+                            "type": "Situation",
+                            "name": "New Situation",
+                            "conditions": [
+                              {
+                                "id": "419d0bf5-f46a-453c-9e1b-c68aac94ce15",
+                                "type": "Condition",
+                                "name": "New Condition",
+                                "code": {
+                                  "id": "bb5c170c-3e88-41fe-a96b-c77686546a45",
+                                  "type": "Code",
+                                  "code": "candle.previous.close < positionRate - positionRate * 4 / 100",
+                                  "savedPayload": {
+                                    "position": {
+                                      "x": 25118.54199396559,
+                                      "y": 23088.527976636957
+                                    },
+                                    "targetPosition": {
+                                      "x": 25307.64276852016,
+                                      "y": 23298.545663421155
+                                    },
+                                    "floatingObject": {
+                                      "isPinned": false,
+                                      "isFrozen": false,
+                                      "isCollapsed": false,
+                                      "isTensed": true
+                                    },
+                                    "uiObject": {}
+                                  }
+                                },
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 25307.64276852016,
+                                    "y": 23298.545663421155
+                                  },
+                                  "targetPosition": {
+                                    "x": 25460.487661758598,
+                                    "y": 23468.297114679495
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": true
+                                  },
+                                  "uiObject": {}
+                                }
+                              }
+                            ],
+                            "savedPayload": {
+                              "position": {
+                                "x": 25460.487661758598,
+                                "y": 23468.297114679495
+                              },
+                              "targetPosition": {
+                                "x": 25748.84789591203,
+                                "y": 23788.553599509374
+                              },
+                              "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "isTensed": true
+                              },
+                              "uiObject": {}
+                            }
+                          }
+                        ],
+                        "savedPayload": {
+                          "position": {
+                            "x": 25748.84789591203,
+                            "y": 23788.553599509374
+                          },
+                          "targetPosition": {
+                            "x": 25955.156524854832,
+                            "y": 24017.682544730505
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      "savedPayload": {
+                        "position": {
+                          "x": 25955.156524854832,
+                          "y": 24017.682544730505
+                        },
+                        "targetPosition": {
+                          "x": 26248.994664213405,
+                          "y": 23955.22532014093
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    }
+                  ],
+                  "savedPayload": {
+                    "position": {
+                      "x": 26248.994664213405,
+                      "y": 23955.22532014093
+                    },
+                    "targetPosition": {
+                      "x": 26478.465414991177,
+                      "y": 23906.449806351768
+                    },
+                    "floatingObject": {
+                      "isPinned": false,
+                      "isFrozen": false,
+                      "isCollapsed": false,
+                      "isTensed": true
+                    },
+                    "uiObject": {}
+                  }
+                },
+                "takeProfit": {
+                  "id": "f3939260-87b7-4954-a257-2e959cdbf750",
+                  "type": "Take Profit",
+                  "subType": "Initial Definition Take Profit",
+                  "phases": [
+                    {
+                      "id": "d9e9829b-0e96-421e-bfdc-06fef4b99f36",
+                      "type": "Phase",
+                      "name": "New Phase",
+                      "formula": {
+                        "id": "1455910b-3b56-4ca5-bbb5-a68978564d82",
+                        "type": "Formula",
+                        "code": "bollingerBand.movingAverage - bollingerBand.movingAverage * 0.4",
+                        "savedPayload": {
+                          "position": {
+                            "x": 25880.32538584119,
+                            "y": 23292.530991466865
+                          },
+                          "targetPosition": {
+                            "x": 26124.0192219568,
+                            "y": 23292.530991466865
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      "nextPhaseEvent": {
+                        "id": "7b34638f-0350-43df-987c-752b1d90a1c4",
+                        "type": "Next Phase Event",
+                        "situations": [
+                          {
+                            "id": "0609439f-0080-4227-9ce5-4f86272cab7f",
+                            "type": "Situation",
+                            "name": "New Situation",
+                            "conditions": [
+                              {
+                                "id": "19e37ed7-4d46-4d54-8541-e9b8df470f15",
+                                "type": "Condition",
+                                "name": "New Condition",
+                                "code": {
+                                  "id": "eb95ec28-6163-4243-b3cc-9f84bbe818d6",
+                                  "type": "Code",
+                                  "code": "chart.at03hs.percentageBandwidth.previous.movingAverage <= 10",
+                                  "savedPayload": {
+                                    "position": {
+                                      "x": 25804.388344395586,
+                                      "y": 22202.89623263703
+                                    },
+                                    "targetPosition": {
+                                      "x": 25920.388632805283,
+                                      "y": 22546.75234675352
+                                    },
+                                    "floatingObject": {
+                                      "isPinned": false,
+                                      "isFrozen": false,
+                                      "isCollapsed": false,
+                                      "isTensed": false
+                                    },
+                                    "uiObject": {}
+                                  }
+                                },
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 25920.388632805283,
+                                    "y": 22546.75234675352
+                                  },
+                                  "targetPosition": {
+                                    "x": 26095.028872639505,
+                                    "y": 22716.22249482827
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              }
+                            ],
+                            "savedPayload": {
+                              "position": {
+                                "x": 26095.028872639505,
+                                "y": 22716.22249482827
+                              },
+                              "targetPosition": {
+                                "x": 26275.889980133434,
+                                "y": 23029.48312212093
+                              },
+                              "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "isTensed": true
+                              },
+                              "uiObject": {}
+                            }
+                          },
+                          {
+                            "id": "93197552-441f-4654-8fad-88fdcf099c11",
+                            "type": "Situation",
+                            "name": "New Situation",
+                            "conditions": [
+                              {
+                                "id": "a67c51ff-cc4e-4819-895d-ad4700edbdf6",
+                                "type": "Condition",
+                                "name": "New Condition",
+                                "code": {
+                                  "id": "c02650b3-da09-40de-a2ba-0dcd3a471c94",
+                                  "type": "Code",
+                                  "code": "chart.at03hs.percentageBandwidth.movingAverage <= 30",
+                                  "savedPayload": {
+                                    "position": {
+                                      "x": 26352.52519383474,
+                                      "y": 22381.2870607516
+                                    },
+                                    "targetPosition": {
+                                      "x": 26442.23486775623,
+                                      "y": 22766.941012748703
+                                    },
+                                    "floatingObject": {
+                                      "isPinned": false,
+                                      "isFrozen": false,
+                                      "isCollapsed": false,
+                                      "isTensed": false
+                                    },
+                                    "uiObject": {}
+                                  }
+                                },
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 26442.23486775623,
+                                    "y": 22766.941012748703
+                                  },
+                                  "targetPosition": {
+                                    "x": 26488.610027568255,
+                                    "y": 23029.48312212093
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              {
+                                "id": "ad777013-234f-4377-bf76-8c66bf69e3d3",
+                                "type": "Condition",
+                                "name": "New Condition",
+                                "code": {
+                                  "id": "8d7bd4e0-2bca-4f1f-848e-b85f7ab26f29",
+                                  "type": "Code",
+                                  "code": "chart.at24hs.bollingerChannel.direction === \"Up\"",
+                                  "savedPayload": {
+                                    "position": {
+                                      "x": 26580.93984886766,
+                                      "y": 22499.05184241443
+                                    },
+                                    "targetPosition": {
+                                      "x": 26622.422418660135,
+                                      "y": 22836.861019692973
+                                    },
+                                    "floatingObject": {
+                                      "isPinned": false,
+                                      "isFrozen": false,
+                                      "isCollapsed": false,
+                                      "isTensed": false
+                                    },
+                                    "uiObject": {}
+                                  }
+                                },
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 26622.422418660135,
+                                    "y": 22836.861019692973
+                                  },
+                                  "targetPosition": {
+                                    "x": 26488.610027568255,
+                                    "y": 23029.48312212093
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              }
+                            ],
+                            "savedPayload": {
+                              "position": {
+                                "x": 26488.610027568255,
+                                "y": 23029.48312212093
+                              },
+                              "targetPosition": {
+                                "x": 26275.889980133434,
+                                "y": 23029.48312212093
+                              },
+                              "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "isTensed": true
+                              },
+                              "uiObject": {}
+                            }
+                          }
+                        ],
+                        "savedPayload": {
+                          "position": {
+                            "x": 26275.889980133434,
+                            "y": 23029.48312212093
+                          },
+                          "targetPosition": {
+                            "x": 26124.0192219568,
+                            "y": 23292.530991466865
+                          },
+                          "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "isTensed": true
+                          },
+                          "uiObject": {}
+                        }
+                      },
+                      "savedPayload": {
+                        "position": {
+                          "x": 26124.0192219568,
+                          "y": 23292.530991466865
+                        },
+                        "targetPosition": {
+                          "x": 26273.316124049386,
+                          "y": 23551.12081130386
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    }
+                  ],
+                  "savedPayload": {
+                    "position": {
+                      "x": 26273.316124049386,
+                      "y": 23551.12081130386
+                    },
+                    "targetPosition": {
+                      "x": 26478.465414991177,
+                      "y": 23906.449806351768
+                    },
+                    "floatingObject": {
+                      "isPinned": false,
+                      "isFrozen": false,
+                      "isCollapsed": false,
+                      "isTensed": true
+                    },
+                    "uiObject": {}
+                  }
+                },
+                "positionSize": {
+                  "id": "aef470eb-c910-4327-b38f-0a2a75160629",
+                  "type": "Position Size",
+                  "name": "Position Size",
+                  "formula": {
+                    "id": "e1f74751-8a7a-44f0-bed8-bd2ea6b950d6",
+                    "type": "Formula",
+                    "code": "balanceAssetA",
+                    "savedPayload": {
+                      "position": {
+                        "x": 26427.986936607438,
+                        "y": 24386.720446789273
+                      },
+                      "targetPosition": {
+                        "x": 26451.688416477144,
+                        "y": 24161.215929204463
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  "savedPayload": {
+                    "position": {
+                      "x": 26451.688416477144,
+                      "y": 24161.215929204463
+                    },
+                    "targetPosition": {
+                      "x": 26478.465414991177,
+                      "y": 23906.449806351768
+                    },
+                    "floatingObject": {
+                      "isPinned": false,
+                      "isFrozen": false,
+                      "isCollapsed": false,
+                      "isTensed": true
+                    },
+                    "uiObject": {}
+                  }
+                },
+                "positionRate": {
+                  "id": "d50dbb9e-fd30-499d-b142-99a1fe28c88d",
+                  "type": "Position Rate",
+                  "name": "Position Rate",
+                  "formula": {
+                    "id": "30e1f940-ac96-4379-a4a2-4deec14620d0",
+                    "type": "Formula",
+                    "name": "My Formula",
+                    "code": "candle.close",
+                    "savedPayload": {
+                      "position": {
+                        "x": 27031.394775280653,
+                        "y": 23292.359538997778
+                      },
+                      "targetPosition": {
+                        "x": 26854.143714797465,
+                        "y": 23489.21678503715
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  "savedPayload": {
+                    "position": {
+                      "x": 26854.143714797465,
+                      "y": 23489.21678503715
+                    },
+                    "targetPosition": {
+                      "x": 26478.465414991177,
+                      "y": 23906.449806351768
+                    },
+                    "floatingObject": {
+                      "isPinned": false,
+                      "isFrozen": false,
+                      "isCollapsed": false,
+                      "isTensed": true
+                    },
+                    "uiObject": {}
+                  }
+                },
+                "savedPayload": {
+                  "position": {
+                    "x": 26478.465414991177,
+                    "y": 23906.449806351768
+                  },
+                  "targetPosition": {
+                    "x": 26582.802411499255,
+                    "y": 23952.9036301361
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "openExecution": {
+                "id": "6d182dc1-af8d-4ac7-9589-2254ed651497",
+                "type": "Open Execution",
+                "savedPayload": {
+                  "position": {
+                    "x": 26987.658203348972,
+                    "y": 23658.758679647995
+                  },
+                  "targetPosition": {
+                    "x": 26582.802411499255,
+                    "y": 23952.9036301361
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 26582.802411499255,
+                  "y": 23952.9036301361
+                },
+                "targetPosition": {
+                  "x": 26761.42124370851,
+                  "y": 25652.34829816259
+                },
+                "floatingObject": {
+                  "isPinned": true,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            "manageStage": {
+              "id": "0301fddf-32a4-4b93-beda-a5ca48eb26b1",
+              "type": "Manage Stage",
+              "stopLoss": {
+                "id": "9a369d8b-f429-4cb8-8bee-b89c5c92b61f",
+                "type": "Stop",
+                "phases": [
+                  {
+                    "id": "b49ec2a3-2a5e-4d55-b23e-389f3554c50d",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "6c22a375-194a-49d8-bb00-a8bf22103525",
+                      "type": "Formula",
+                      "code": "if (bollingerBand.movingAverage + bollingerBand.movingAverage * 4 / 100 < stopLoss) {bollingerBand.movingAverage + bollingerBand.movingAverage * 4 / 100} else {stopLoss}",
+                      "savedPayload": {
+                        "position": {
+                          "x": 27457.44715772228,
+                          "y": 24143.682590214812
+                        },
+                        "targetPosition": {
+                          "x": 27445.024969340957,
+                          "y": 24306.194100136974
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "973915ac-44e5-42ac-9d03-9497fdb44b27",
+                      "type": "Next Phase Event",
+                      "situations": [],
+                      "savedPayload": {
+                        "position": {
+                          "x": 27729.990352817487,
+                          "y": 24179.319337093275
+                        },
+                        "targetPosition": {
+                          "x": 27445.024969340957,
+                          "y": 24306.194100136974
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 27445.024969340957,
+                        "y": 24306.194100136974
+                      },
+                      "targetPosition": {
+                        "x": 27376.8804879162,
+                        "y": 24954.545531956104
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 27376.8804879162,
+                    "y": 24954.545531956104
+                  },
+                  "targetPosition": {
+                    "x": 27330.152479113036,
+                    "y": 25399.132837929534
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "takeProfit": {
+                "id": "4710a2d0-16e7-40d3-b0c3-b2116c569f8d",
+                "type": "Take Profit",
+                "phases": [
+                  {
+                    "id": "26e213d6-e8f7-409e-b3a5-f2826a07f10d",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "fa97bc24-2ce8-4d4a-ac9b-2f8690c8cae3",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.movingAverage * 0.3",
+                      "savedPayload": {
+                        "position": {
+                          "x": 27805.74338718968,
+                          "y": 25277.57222144744
+                        },
+                        "targetPosition": {
+                          "x": 27465.175269280226,
+                          "y": 25497.232637235942
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "66ce8ebb-a8b6-445b-83fb-5c48d92e25ef",
+                      "type": "Next Phase Event",
+                      "situations": [
+                        {
+                          "id": "971cc26a-de82-431e-9b17-8d85bbd5b111",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "9b45566d-9aab-472c-bfde-22e94e52d9a1",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "80d65317-000c-41b9-b69e-6a9a5d8910f6",
+                                "type": "Code",
+                                "code": "chart.at04hs.percentageBandwidth.previous.movingAverage <= 15",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27483.308656013636,
+                                    "y": 26797.590813066996
+                                  },
+                                  "targetPosition": {
+                                    "x": 27483.396307235646,
+                                    "y": 26438.286619021466
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27483.396307235646,
+                                  "y": 26438.286619021466
+                                },
+                                "targetPosition": {
+                                  "x": 27403.60654855226,
+                                  "y": 26202.010060422548
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 27403.60654855226,
+                              "y": 26202.010060422548
+                            },
+                            "targetPosition": {
+                              "x": 27434.42811175235,
+                              "y": 25789.772299887554
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        {
+                          "id": "34091fe6-7a1d-426a-a67c-94a6d31e4614",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "e2523a8d-1a30-4a32-8895-1fb6b90744cc",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "8475e302-cb70-47bb-81c1-48834f1fe37d",
+                                "type": "Code",
+                                "code": "chart.at04hs.percentageBandwidth.movingAverage <= 50",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27203.271327777198,
+                                    "y": 26366.753864541548
+                                  },
+                                  "targetPosition": {
+                                    "x": 27266.808845249452,
+                                    "y": 26128.991438811794
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27266.808845249452,
+                                  "y": 26128.991438811794
+                                },
+                                "targetPosition": {
+                                  "x": 27397.83985870306,
+                                  "y": 25924.49498270569
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            },
+                            {
+                              "id": "7015bad5-00e9-4194-9840-ad54ada782c2",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "57b4ab24-3a0e-49a3-b3ab-b76dd6e0500b",
+                                "type": "Code",
+                                "code": "chart.at24hs.bollingerChannel.direction === \"Up\"",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27291.307295419036,
+                                    "y": 26554.203939958952
+                                  },
+                                  "targetPosition": {
+                                    "x": 27302.234899355586,
+                                    "y": 26231.260336468164
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27302.234899355586,
+                                  "y": 26231.260336468164
+                                },
+                                "targetPosition": {
+                                  "x": 27397.83985870306,
+                                  "y": 25924.49498270569
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 27397.83985870306,
+                              "y": 25924.49498270569
+                            },
+                            "targetPosition": {
+                              "x": 27434.42811175235,
+                              "y": 25789.772299887554
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        }
+                      ],
+                      "savedPayload": {
+                        "position": {
+                          "x": 27434.42811175235,
+                          "y": 25789.772299887554
+                        },
+                        "targetPosition": {
+                          "x": 27465.175269280226,
+                          "y": 25497.232637235942
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 27465.175269280226,
+                        "y": 25497.232637235942
+                      },
+                      "targetPosition": {
+                        "x": 27366.156592767515,
+                        "y": 25425.29135768265
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "c45fab06-15c4-4ae3-8af9-ca3148944fb7",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "be41660e-6e88-4e66-8e74-62e044974953",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.movingAverage * 0.2",
+                      "savedPayload": {
+                        "position": {
+                          "x": 27943.962761811465,
+                          "y": 25312.709600377097
+                        },
+                        "targetPosition": {
+                          "x": 27684.246522594756,
+                          "y": 25656.397219432383
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "cb4c3269-cfe5-4b10-8fce-3693ebce8fb3",
+                      "type": "Next Phase Event",
+                      "situations": [
+                        {
+                          "id": "e08fce1d-d263-4c1c-bb1e-a5d0ede90bfc",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "2b7e6de2-2c6a-4fe9-974b-919780e238ea",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "f2789e09-9ec0-409f-a697-488fef0f8b58",
+                                "type": "Code",
+                                "code": "chart.at06hs.percentageBandwidth.previous.movingAverage <= 15",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27673.94045546696,
+                                    "y": 26944.011825237823
+                                  },
+                                  "targetPosition": {
+                                    "x": 27628.628809497906,
+                                    "y": 26635.26941270563
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27628.628809497906,
+                                  "y": 26635.26941270563
+                                },
+                                "targetPosition": {
+                                  "x": 27564.437640627653,
+                                  "y": 26276.719301884463
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 27564.437640627653,
+                              "y": 26276.719301884463
+                            },
+                            "targetPosition": {
+                              "x": 27653.36128082648,
+                              "y": 25950.250665872532
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        {
+                          "id": "1b3328cc-7832-4e31-9a3f-f0557c3f3740",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "f10e85cf-e5c7-4f13-954f-32cc0a247fd9",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "8b2740e7-f41f-490b-bfbc-da0fa4865257",
+                                "type": "Code",
+                                "code": "chart.at06hs.percentageBandwidth.movingAverage <= 50",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27626.03625388048,
+                                    "y": 26759.502243881612
+                                  },
+                                  "targetPosition": {
+                                    "x": 27629.212195268134,
+                                    "y": 26441.57571188431
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27629.212195268134,
+                                  "y": 26441.57571188431
+                                },
+                                "targetPosition": {
+                                  "x": 27565.269878673305,
+                                  "y": 26090.304940842423
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            },
+                            {
+                              "id": "9111b1f9-0ff8-480a-b19c-f099114eb82e",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "10074471-5735-4022-8ff8-a167e4f96e69",
+                                "type": "Code",
+                                "code": "chart.at24hs.bollingerChannel.direction === \"Up\"",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27757.318381198107,
+                                    "y": 26636.66311780694
+                                  },
+                                  "targetPosition": {
+                                    "x": 27756.59394663127,
+                                    "y": 26348.962802638143
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27756.59394663127,
+                                  "y": 26348.962802638143
+                                },
+                                "targetPosition": {
+                                  "x": 27565.269878673305,
+                                  "y": 26090.304940842423
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 27565.269878673305,
+                              "y": 26090.304940842423
+                            },
+                            "targetPosition": {
+                              "x": 27653.36128082648,
+                              "y": 25950.250665872532
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        }
+                      ],
+                      "savedPayload": {
+                        "position": {
+                          "x": 27653.36128082648,
+                          "y": 25950.250665872532
+                        },
+                        "targetPosition": {
+                          "x": 27684.246522594756,
+                          "y": 25656.397219432383
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 27684.246522594756,
+                        "y": 25656.397219432383
+                      },
+                      "targetPosition": {
+                        "x": 27465.175269280226,
+                        "y": 25497.232637235942
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "fcbdcd00-6012-47ca-a8da-285cd600dd83",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "f257c92b-e243-4153-9b75-91abf0bcc4be",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.movingAverage * 0.15",
+                      "savedPayload": {
+                        "position": {
+                          "x": 28108.008595425334,
+                          "y": 25479.427527955177
+                        },
+                        "targetPosition": {
+                          "x": 27895.54419773369,
+                          "y": 25809.91396648948
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "78aa3111-f3c0-4feb-a53a-04180e8ba325",
+                      "type": "Next Phase Event",
+                      "situations": [
+                        {
+                          "id": "9035c77b-e5cf-4bc8-8a84-76ecc54827f7",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "712dddfd-f468-4ad5-b569-e28f243367b8",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "eed4bc15-1ffe-4dfb-aa88-1bec01929e28",
+                                "type": "Code",
+                                "code": "chart.at08hs.percentageBandwidth.previous.movingAverage <= 15 && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >= 5",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 27835.72252163905,
+                                    "y": 27175.951379891187
+                                  },
+                                  "targetPosition": {
+                                    "x": 27873.468728012995,
+                                    "y": 26862.46109904657
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 27873.468728012995,
+                                  "y": 26862.46109904657
+                                },
+                                "targetPosition": {
+                                  "x": 27878.46413893186,
+                                  "y": 26493.57615612419
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 27878.46413893186,
+                              "y": 26493.57615612419
+                            },
+                            "targetPosition": {
+                              "x": 27873.233307766404,
+                              "y": 26022.18790493627
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        {
+                          "id": "8b04526c-dfd1-47b4-bcad-9ba28baefe45",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "2d0105b0-0df8-441f-852b-fb0896f88ec9",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "40836274-d061-4e98-84dc-5c188a0fefe4",
+                                "type": "Code",
+                                "code": "chart.at08hs.percentageBandwidth.movingAverage <= 40 && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >= 3",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28690.52354738504,
+                                    "y": 25317.094066061636
+                                  },
+                                  "targetPosition": {
+                                    "x": 28571.14326662623,
+                                    "y": 25514.445556083057
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28571.14326662623,
+                                  "y": 25514.445556083057
+                                },
+                                "targetPosition": {
+                                  "x": 28338.677054885753,
+                                  "y": 25819.403260546573
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            },
+                            {
+                              "id": "ccf1b2b7-163e-4a85-93c1-19257fd6e20a",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "e1001e25-b7e5-4d7b-b5ca-775cc6cda9bf",
+                                "type": "Code",
+                                "code": "chart.at24hs.bollingerChannel.previous.direction === \"Up\"",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28815.977568086153,
+                                    "y": 25684.993350133424
+                                  },
+                                  "targetPosition": {
+                                    "x": 28656.51914127257,
+                                    "y": 25704.844704421586
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28656.51914127257,
+                                  "y": 25704.844704421586
+                                },
+                                "targetPosition": {
+                                  "x": 28338.677054885753,
+                                  "y": 25819.403260546573
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 28338.677054885753,
+                              "y": 25819.403260546573
+                            },
+                            "targetPosition": {
+                              "x": 27873.233307766404,
+                              "y": 26022.18790493627
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        }
+                      ],
+                      "savedPayload": {
+                        "position": {
+                          "x": 27873.233307766404,
+                          "y": 26022.18790493627
+                        },
+                        "targetPosition": {
+                          "x": 27895.54419773369,
+                          "y": 25809.91396648948
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 27895.54419773369,
+                        "y": 25809.91396648948
+                      },
+                      "targetPosition": {
+                        "x": 27684.246522594756,
+                        "y": 25656.397219432383
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "b648d940-c4d5-4299-a857-6f1570099fe0",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "b00ddf15-fa75-4934-bf11-c5b99aec50a5",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.movingAverage * 0.1",
+                      "savedPayload": {
+                        "position": {
+                          "x": 28534.2682325694,
+                          "y": 25926.47659708854
+                        },
+                        "targetPosition": {
+                          "x": 28111.19048445872,
+                          "y": 25966.59016480165
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "27cc93d7-5c3a-4627-b3db-9063e1776674",
+                      "type": "Next Phase Event",
+                      "situations": [
+                        {
+                          "id": "51f36e74-2151-434f-928b-0c0c812da7fc",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "9faa3fee-2cf4-4b5b-963b-66b89f9f5d39",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "9d7506a6-637d-4a5e-963e-8c490b6334ae",
+                                "type": "Code",
+                                "code": "chart.at12hs.percentageBandwidth.previous.movingAverage <= 15 && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >= 15",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28052.301079274926,
+                                    "y": 27364.548191724632
+                                  },
+                                  "targetPosition": {
+                                    "x": 28005.87297788772,
+                                    "y": 27067.429566193852
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28005.87297788772,
+                                  "y": 27067.429566193852
+                                },
+                                "targetPosition": {
+                                  "x": 28024.299930819303,
+                                  "y": 26653.60302599314
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 28024.299930819303,
+                              "y": 26653.60302599314
+                            },
+                            "targetPosition": {
+                              "x": 28083.10833097947,
+                              "y": 26233.77400766263
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        {
+                          "id": "1ecbddb7-0567-4982-b153-3cfdf52da4ea",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "0c67fea5-096a-4244-adb7-e25fb99c8fa9",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "29020fef-a868-4770-90dd-2d7d54f62a17",
+                                "type": "Code",
+                                "code": "(chart.at24hs.percentageBandwidth.movingAverage <= 70 || chart.at12hs.percentageBandwidth.movingAverage <= 40 ) && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >=5",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28366.002153564565,
+                                    "y": 26994.493336903513
+                                  },
+                                  "targetPosition": {
+                                    "x": 28331.748865147296,
+                                    "y": 26680.92911288516
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28331.748865147296,
+                                  "y": 26680.92911288516
+                                },
+                                "targetPosition": {
+                                  "x": 28172.23780526206,
+                                  "y": 26520.584799262306
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            },
+                            {
+                              "id": "51a7a52b-b5a0-444a-9c3f-a5c1107364d4",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "bb21a25d-5adc-4778-90e1-8e88707f5690",
+                                "type": "Code",
+                                "code": "chart.at24hs.bollingerChannel.previous.previous.direction === \"Up\"",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28241.389304886237,
+                                    "y": 27256.43260837905
+                                  },
+                                  "targetPosition": {
+                                    "x": 28147.15914074387,
+                                    "y": 26885.46710717665
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28147.15914074387,
+                                  "y": 26885.46710717665
+                                },
+                                "targetPosition": {
+                                  "x": 28172.23780526206,
+                                  "y": 26520.584799262306
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 28172.23780526206,
+                              "y": 26520.584799262306
+                            },
+                            "targetPosition": {
+                              "x": 28083.10833097947,
+                              "y": 26233.77400766263
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        }
+                      ],
+                      "savedPayload": {
+                        "position": {
+                          "x": 28083.10833097947,
+                          "y": 26233.77400766263
+                        },
+                        "targetPosition": {
+                          "x": 28111.19048445872,
+                          "y": 25966.59016480165
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 28111.19048445872,
+                        "y": 25966.59016480165
+                      },
+                      "targetPosition": {
+                        "x": 27895.54419773369,
+                        "y": 25809.91396648948
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "68fdfa18-7975-4055-89bc-53b9b616d7cf",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "37c7be8d-2dcb-4b20-93e4-61fd7f879a6d",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.deviation * 1.75",
+                      "savedPayload": {
+                        "position": {
+                          "x": 28849.706133727348,
+                          "y": 26173.025171215802
+                        },
+                        "targetPosition": {
+                          "x": 28495.824012734516,
+                          "y": 26246.04278079077
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "5fee368f-24dd-427d-bd52-a53ecfb4459d",
+                      "type": "Next Phase Event",
+                      "situations": [
+                        {
+                          "id": "e4b34544-1f64-4353-a5ad-2a0aea1c58c6",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "bbdb3a24-2801-4804-b576-9400a1090ebd",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "51509a6b-a17e-41f1-a622-1a8d828bea9f",
+                                "type": "Code",
+                                "code": "chart.at24hs.percentageBandwidth.previous.movingAverage <= 30 && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >=10",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28973.94447867739,
+                                    "y": 27016.98839367098
+                                  },
+                                  "targetPosition": {
+                                    "x": 28718.693605197175,
+                                    "y": 26947.601901985436
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28718.693605197175,
+                                  "y": 26947.601901985436
+                                },
+                                "targetPosition": {
+                                  "x": 28654.505544717587,
+                                  "y": 26681.978037086126
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 28654.505544717587,
+                              "y": 26681.978037086126
+                            },
+                            "targetPosition": {
+                              "x": 28475.231813738268,
+                              "y": 26441.96446695494
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        {
+                          "id": "18043e6e-16ab-4838-bb12-29838d4cce6b",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "c44b4d80-d0d6-4203-b3d8-980cf6f9cd68",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "6a21d221-46fd-4414-ba7a-72cdb98a9414",
+                                "type": "Code",
+                                "code": "(chart.at24hs.percentageBandwidth.movingAverage <= 60 || chart.at12hs.percentageBandwidth.movingAverage <= 30 ) && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >=5",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28517.040460754513,
+                                    "y": 27432.9997313624
+                                  },
+                                  "targetPosition": {
+                                    "x": 28442.79054432744,
+                                    "y": 27165.56821236496
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28442.79054432744,
+                                  "y": 27165.56821236496
+                                },
+                                "targetPosition": {
+                                  "x": 28415.760287378765,
+                                  "y": 26788.326002240825
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            },
+                            {
+                              "id": "3d5f2f28-18ab-492c-92c3-83935147c659",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "5eb799d7-3e87-497d-81cc-7f71c1cb6ff9",
+                                "type": "Code",
+                                "code": "chart.at24hs.bollingerChannel.previous.previous.direction === \"Up\"",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 28685.681120629746,
+                                    "y": 27486.36134054642
+                                  },
+                                  "targetPosition": {
+                                    "x": 28567.131221678424,
+                                    "y": 27150.32499771681
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28567.131221678424,
+                                  "y": 27150.32499771681
+                                },
+                                "targetPosition": {
+                                  "x": 28415.760287378765,
+                                  "y": 26788.326002240825
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 28415.760287378765,
+                              "y": 26788.326002240825
+                            },
+                            "targetPosition": {
+                              "x": 28475.231813738268,
+                              "y": 26441.96446695494
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        }
+                      ],
+                      "savedPayload": {
+                        "position": {
+                          "x": 28475.231813738268,
+                          "y": 26441.96446695494
+                        },
+                        "targetPosition": {
+                          "x": 28495.824012734516,
+                          "y": 26246.04278079077
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 28495.824012734516,
+                        "y": 26246.04278079077
+                      },
+                      "targetPosition": {
+                        "x": 28111.19048445872,
+                        "y": 25966.59016480165
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "9a426f1b-c3fd-4ec5-aa9e-7c1198587936",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "7fac596f-9e80-469a-91f7-8c60321ce178",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.deviation * 1.25",
+                      "savedPayload": {
+                        "position": {
+                          "x": 29138.345591859514,
+                          "y": 26416.79245272555
+                        },
+                        "targetPosition": {
+                          "x": 28847.14168388908,
+                          "y": 26501.290009724362
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "nextPhaseEvent": {
+                      "id": "1e0fe692-2762-4a39-bcd2-292d4156874a",
+                      "type": "Next Phase Event",
+                      "situations": [
+                        {
+                          "id": "d7a37efb-0d64-40ad-8e83-da1f3da2f2db",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "ec86d2bb-5e22-4f31-aeee-9ff98dd3f006",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "461b716a-4ac7-46b7-b0b7-57fe129a34e9",
+                                "type": "Code",
+                                "code": "chart.at24hs.percentageBandwidth.previous.movingAverage <= 30 && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >=10",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 29631.54590233075,
+                                    "y": 27273.789751156437
+                                  },
+                                  "targetPosition": {
+                                    "x": 29345.305974015835,
+                                    "y": 27278.412366662098
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 29345.305974015835,
+                                  "y": 27278.412366662098
+                                },
+                                "targetPosition": {
+                                  "x": 29097.781203399,
+                                  "y": 27056.862914237292
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 29097.781203399,
+                              "y": 27056.862914237292
+                            },
+                            "targetPosition": {
+                              "x": 28813.600248654904,
+                              "y": 26820.415448860025
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        },
+                        {
+                          "id": "684a6ca0-83ad-4856-a759-fcd342f4ac8c",
+                          "type": "Situation",
+                          "name": "New Situation",
+                          "conditions": [
+                            {
+                              "id": "e3fba252-1cc9-48b1-b9cc-bb6a32faf7b3",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "b0e55bcf-7dde-4ae3-a63b-ce82f1f0e9a5",
+                                "type": "Code",
+                                "code": "(chart.at24hs.percentageBandwidth.movingAverage <= 50 || chart.at12hs.percentageBandwidth.movingAverage <= 17.5 ) && bollingerSubChannel.slope === \"Extreme\" && bollingerSubChannel.period >=5",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 29402.4150118733,
+                                    "y": 27603.037772335647
+                                  },
+                                  "targetPosition": {
+                                    "x": 29173.800752513456,
+                                    "y": 27310.186386936442
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 29173.800752513456,
+                                  "y": 27310.186386936442
+                                },
+                                "targetPosition": {
+                                  "x": 28916.435512878128,
+                                  "y": 27173.21965381219
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            },
+                            {
+                              "id": "ee9a30e4-4128-4911-b03c-e1aebc1aa173",
+                              "type": "Condition",
+                              "name": "New Condition",
+                              "code": {
+                                "id": "42a3cac4-9fe8-4791-92ab-2805c4a57798",
+                                "type": "Code",
+                                "code": "chart.at24hs.bollingerChannel.previous.previous.direction === \"Up\"",
+                                "savedPayload": {
+                                  "position": {
+                                    "x": 29030.353677279843,
+                                    "y": 27678.89819863259
+                                  },
+                                  "targetPosition": {
+                                    "x": 28930.848697179328,
+                                    "y": 27421.070195024342
+                                  },
+                                  "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "isTensed": false
+                                  },
+                                  "uiObject": {}
+                                }
+                              },
+                              "savedPayload": {
+                                "position": {
+                                  "x": 28930.848697179328,
+                                  "y": 27421.070195024342
+                                },
+                                "targetPosition": {
+                                  "x": 28916.435512878128,
+                                  "y": 27173.21965381219
+                                },
+                                "floatingObject": {
+                                  "isPinned": false,
+                                  "isFrozen": false,
+                                  "isCollapsed": false,
+                                  "isTensed": false
+                                },
+                                "uiObject": {}
+                              }
+                            }
+                          ],
+                          "savedPayload": {
+                            "position": {
+                              "x": 28916.435512878128,
+                              "y": 27173.21965381219
+                            },
+                            "targetPosition": {
+                              "x": 28813.600248654904,
+                              "y": 26820.415448860025
+                            },
+                            "floatingObject": {
+                              "isPinned": false,
+                              "isFrozen": false,
+                              "isCollapsed": false,
+                              "isTensed": false
+                            },
+                            "uiObject": {}
+                          }
+                        }
+                      ],
+                      "savedPayload": {
+                        "position": {
+                          "x": 28813.600248654904,
+                          "y": 26820.415448860025
+                        },
+                        "targetPosition": {
+                          "x": 28847.14168388908,
+                          "y": 26501.290009724362
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": true
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 28847.14168388908,
+                        "y": 26501.290009724362
+                      },
+                      "targetPosition": {
+                        "x": 28495.824012734516,
+                        "y": 26246.04278079077
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "35945d37-6095-4690-b29c-7dd41c2ad489",
+                    "type": "Phase",
+                    "name": "New Phase",
+                    "formula": {
+                      "id": "08b4002d-8c18-418a-9772-598e73d909da",
+                      "type": "Formula",
+                      "code": "bollingerBand.movingAverage - bollingerBand.deviation",
+                      "savedPayload": {
+                        "position": {
+                          "x": 29665.630908602063,
+                          "y": 26913.960173911153
+                        },
+                        "targetPosition": {
+                          "x": 29375.231023705768,
+                          "y": 26884.96937368746
+                        },
+                        "floatingObject": {
+                          "isPinned": false,
+                          "isFrozen": false,
+                          "isCollapsed": false,
+                          "isTensed": false
+                        },
+                        "uiObject": {}
+                      }
+                    },
+                    "savedPayload": {
+                      "position": {
+                        "x": 29375.231023705768,
+                        "y": 26884.96937368746
+                      },
+                      "targetPosition": {
+                        "x": 28847.14168388908,
+                        "y": 26501.290009724362
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 27366.156592767515,
+                    "y": 25425.29135768265
+                  },
+                  "targetPosition": {
+                    "x": 27330.152479113036,
+                    "y": 25399.132837929534
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 27330.152479113036,
+                  "y": 25399.132837929534
+                },
+                "targetPosition": {
+                  "x": 26761.42124370851,
+                  "y": 25652.34829816259
+                },
+                "floatingObject": {
+                  "isPinned": true,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            "closeStage": {
+              "id": "927e7d87-c522-4bf4-a872-04d5a18180ff",
+              "type": "Close Stage",
+              "closeExecution": {
+                "id": "a5785489-49fe-4a19-8671-c1d875a1dee4",
+                "type": "Close Execution",
+                "savedPayload": {
+                  "position": {
+                    "x": 27113.73513205716,
+                    "y": 26043.632511710737
+                  },
+                  "targetPosition": {
+                    "x": 26853.05712230165,
+                    "y": 25754.120251735498
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 26853.05712230165,
+                  "y": 25754.120251735498
+                },
+                "targetPosition": {
+                  "x": 26761.42124370851,
+                  "y": 25652.34829816259
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            "savedPayload": {
+              "position": {
+                "x": 26761.42124370851,
+                "y": 25652.34829816259
+              },
+              "targetPosition": {
+                "x": 26435.13075651971,
+                "y": 26217.5
+              },
+              "floatingObject": {
+                "isPinned": true,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": true
+              },
+              "uiObject": {}
+            }
+          }
+        ],
+        "parameters": {
+          "id": "5a021e03-57ff-4915-a551-c6ef14c963c3",
+          "type": "Parameters",
+          "name": "Parameters",
+          "baseAsset": {
+            "id": "346fb744-2838-4913-99eb-3f68e7be0407",
+            "type": "Base Asset",
+            "name": "Base Asset",
+            "code": "{ \n\"name\": \"BTC\",\n\"initialBalance\": 0.01,\n\"minimumBalance\": 0.0001,\n\"maximumBalance\": 1\n}",
+            "savedPayload": {
+              "position": {
+                "x": 26788.323253308045,
+                "y": 26508.100133454485
+              },
+              "targetPosition": {
+                "x": 26675.34919362795,
+                "y": 26633.57053798626
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": true
+              },
+              "uiObject": {}
+            }
+          },
+          "timeRange": {
+            "id": "e4604c77-6bdf-4be6-a7bd-10a9fca4135c",
+            "type": "Time Range",
+            "name": "Time Range",
+            "code": "{\n\"initialDatetime\": \"2018-01-01T00:00:00.000Z\"\n}",
+            "savedPayload": {
+              "position": {
+                "x": 27069.75824428736,
+                "y": 26809.172761085138
+              },
+              "targetPosition": {
+                "x": 26675.34919362795,
+                "y": 26633.57053798626
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": true
+              },
+              "uiObject": {}
+            }
+          },
+          "slippage": {
+            "id": "fbd3a8c4-08e6-4ee3-a9ec-9a87e1c6102f",
+            "type": "Slippage",
+            "name": "Slippage",
+            "code": "{\n\"positionRate\": 0.1,\n\"stopLoss\": 0.1,\n\"takeProfit\": 0.1\n}",
+            "savedPayload": {
+              "position": {
+                "x": 26614.204810374158,
+                "y": 27215.320484591488
+              },
+              "targetPosition": {
+                "x": 26675.34919362795,
+                "y": 26633.57053798626
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": true
+              },
+              "uiObject": {}
+            }
+          },
+          "feeStructure": {
+            "id": "df98a4fc-c1ad-4eee-bf9e-d8a6825ed2fe",
+            "type": "Fee Structure",
+            "name": "Fee Structure",
+            "code": "{\n\"maker\": 0.15,\n\"taker\": 0.25\n}",
+            "savedPayload": {
+              "position": {
+                "x": 26320.806944796645,
+                "y": 26708.9308193646
+              },
+              "targetPosition": {
+                "x": 26675.34919362795,
+                "y": 26633.57053798626
+              },
+              "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "isTensed": true
+              },
+              "uiObject": {}
+            }
+          },
+          "savedPayload": {
+            "position": {
+              "x": 26675.34919362795,
+              "y": 26633.57053798626
+            },
+            "targetPosition": {
+              "x": 26435.13075651971,
+              "y": 26217.5
+            },
+            "floatingObject": {
+              "isPinned": false,
+              "isFrozen": false,
+              "isCollapsed": false,
+              "isTensed": true
+            },
+            "uiObject": {}
+          }
+        },
+        "savedPayload": {
+          "position": {
+            "x": 26435.13075651971,
+            "y": 26217.5
+          },
+          "targetPosition": {
+            "x": 24580,
+            "y": 26217.5
+          },
+          "floatingObject": {
+            "isPinned": true,
+            "isFrozen": false,
+            "isCollapsed": false,
+            "isTensed": true
+          },
+          "uiObject": {}
+        }
+      },
+      "taskManagers": [
+        {
+          "id": "68883ce7-0f51-4d89-a63e-4971192a3eab",
+          "type": "Task Manager",
+          "name": "Keep Datasets UP-TO-DATE",
+          "tasks": [
+            {
+              "id": "44e29937-9f0f-4b3c-b7d0-637d4581ef45",
+              "type": "Task",
+              "name": "Brings Trades Records from the Exchange",
+              "bot": {
+                "id": "3f9e51dc-5d00-473f-941c-f5b6b5f8a702",
+                "type": "Sensor",
+                "name": "Charly",
+                "processes": [
+                  {
+                    "id": "b78f2b38-a853-474a-8b83-83c52e969162",
+                    "type": "Process",
+                    "name": "Live Trades",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AACharly\",\n    \"process\": \"Live-Trades\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 25055.95286155047,
+                        "y": 27487.787625516652
+                      },
+                      "targetPosition": {
+                        "x": 24697.260429029873,
+                        "y": 27541.851810800195
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "03e0da7f-4a57-43e6-a246-fb3e040b49a0",
+                    "type": "Process",
+                    "name": "Hole Fixing",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AACharly\",\n    \"process\": \"Hole-Fixing\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 24588.76675214929,
+                        "y": 27818.289191127722
+                      },
+                      "targetPosition": {
+                        "x": 24697.260429029873,
+                        "y": 27541.851810800195
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 24697.260429029873,
+                    "y": 27541.851810800195
+                  },
+                  "targetPosition": {
+                    "x": 24382.090025119513,
+                    "y": 27146.640624691467
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 24382.090025119513,
+                  "y": 27146.640624691467
+                },
+                "targetPosition": {
+                  "x": 23641.125102398495,
+                  "y": 26217.5
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            {
+              "id": "42758590-a7bd-4712-a5c9-80a3a820c5b3",
+              "type": "Task",
+              "name": "Converts Trades into 1 min Candles & Volumes",
+              "bot": {
+                "id": "894db657-61bb-4210-bd24-20dbdf641fa3",
+                "type": "Indicator",
+                "name": "Bruce",
+                "processes": [
+                  {
+                    "id": "e184744f-5de0-41c1-ad4c-36960f4ced90",
+                    "type": "Process",
+                    "name": "New Process",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AABruce\",\n    \"process\": \"Single-Period-Daily\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 23274.056573454756,
+                        "y": 27825.7323051054
+                      },
+                      "targetPosition": {
+                        "x": 23345.591169700132,
+                        "y": 27512.318760921895
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 23345.591169700132,
+                    "y": 27512.318760921895
+                  },
+                  "targetPosition": {
+                    "x": 23459.4850169428,
+                    "y": 27013.317212040896
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 23459.4850169428,
+                  "y": 27013.317212040896
+                },
+                "targetPosition": {
+                  "x": 23641.125102398495,
+                  "y": 26217.5
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            {
+              "id": "6da3bd89-9fc9-49cc-b0d2-4ae76580fe16",
+              "type": "Task",
+              "name": "Generates 1 min to 24 hs Candles & Volumes",
+              "bot": {
+                "id": "361c3cd6-6bd8-400d-9674-436e9e626819",
+                "type": "Indicator",
+                "name": "Olivia",
+                "processes": [
+                  {
+                    "id": "7cc252d7-4f5a-43bc-a77e-0d83552b8bf5",
+                    "type": "Process",
+                    "name": "Daily",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAOlivia\",\n    \"process\": \"Multi-Period-Daily\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 22383.102977699014,
+                        "y": 27151.204643534675
+                      },
+                      "targetPosition": {
+                        "x": 22408.59360306985,
+                        "y": 26811.055886957467
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "d1d5971c-b799-464d-81e7-69479f021855",
+                    "type": "Process",
+                    "name": "Market",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAOlivia\",\n    \"process\": \"Multi-Period-Market\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 22204.701030800563,
+                        "y": 26672.044284960743
+                      },
+                      "targetPosition": {
+                        "x": 22408.59360306985,
+                        "y": 26811.055886957467
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 22408.59360306985,
+                    "y": 26811.055886957467
+                  },
+                  "targetPosition": {
+                    "x": 22855.57497299778,
+                    "y": 26595.801004120356
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 22855.57497299778,
+                  "y": 26595.801004120356
+                },
+                "targetPosition": {
+                  "x": 23641.125102398495,
+                  "y": 26217.5
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            {
+              "id": "dc12b79a-dbdf-4cb6-9742-a11195310d5b",
+              "type": "Task",
+              "name": "Generates Candle & Volume Stairs Patters",
+              "bot": {
+                "id": "adfcaa10-8447-4728-8a11-446f353a1578",
+                "type": "Indicator",
+                "name": "Tom",
+                "processes": [
+                  {
+                    "id": "7802dd64-4ff5-4c4d-b1ee-441c5ceb0179",
+                    "type": "Process",
+                    "name": "Daily",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AATom\",\n    \"process\": \"Multi-Period-Daily\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 22245.01280970873,
+                        "y": 25732.812937915278
+                      },
+                      "targetPosition": {
+                        "x": 22406.30827040834,
+                        "y": 25622.843554837218
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "6de12759-3650-4f20-8d6c-70c94c1baf97",
+                    "type": "Process",
+                    "name": "Market",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AATom\",\n    \"process\": \"Multi-Period-Market\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 22383.815955322745,
+                        "y": 25322.704468502317
+                      },
+                      "targetPosition": {
+                        "x": 22406.30827040834,
+                        "y": 25622.843554837218
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 22406.30827040834,
+                    "y": 25622.843554837218
+                  },
+                  "targetPosition": {
+                    "x": 22833.31183870665,
+                    "y": 25828.47763546993
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 22833.31183870665,
+                  "y": 25828.47763546993
+                },
+                "targetPosition": {
+                  "x": 23641.125102398495,
+                  "y": 26217.5
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            {
+              "id": "923cdbfd-48b8-4508-af24-408352d02379",
+              "type": "Task",
+              "name": "Generate Bollinger Bands & Percentage Bandwidth",
+              "bot": {
+                "id": "a8398bf2-17dc-4e31-ba5a-f5d12c8d51ef",
+                "type": "Indicator",
+                "name": "Chris",
+                "processes": [
+                  {
+                    "id": "ffd983ce-e3cb-4044-98c0-5909ee0f7bd8",
+                    "type": "Process",
+                    "name": "Daily",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAChris\",\n    \"process\": \"Multi-Period-Daily\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 23093.143077141613,
+                        "y": 24865.56422155334
+                      },
+                      "targetPosition": {
+                        "x": 23350.686624441965,
+                        "y": 24945.005884965336
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "76ea4edb-4e4f-4cc8-9236-a85e172e33f0",
+                    "type": "Process",
+                    "name": "Market",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAChris\",\n    \"process\": \"Multi-Period-Market\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 23515.296856730693,
+                        "y": 24792.269909977033
+                      },
+                      "targetPosition": {
+                        "x": 23350.686624441965,
+                        "y": 24945.005884965336
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 23350.686624441965,
+                    "y": 24945.005884965336
+                  },
+                  "targetPosition": {
+                    "x": 23438.83134116403,
+                    "y": 25331.193121895467
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 23438.83134116403,
+                  "y": 25331.193121895467
+                },
+                "targetPosition": {
+                  "x": 23641.125102398495,
+                  "y": 26217.5
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            },
+            {
+              "id": "0674e11d-b04b-4a63-8934-2f95f91beb24",
+              "type": "Task",
+              "name": "Generates Bollinger Channels & Sub-Channels",
+              "bot": {
+                "id": "9a118dd0-84a7-46e6-96a5-ced0d1f7f86c",
+                "type": "Indicator",
+                "name": "Paula",
+                "processes": [
+                  {
+                    "id": "d4ab2f1b-f856-44d5-b8a6-267547161750",
+                    "type": "Process",
+                    "name": "Daily",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAPaula\",\n    \"process\": \"Multi-Period-Daily\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 24089.639684426787,
+                        "y": 25106.743067452495
+                      },
+                      "targetPosition": {
+                        "x": 24233.86618347795,
+                        "y": 25474.22619382305
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  },
+                  {
+                    "id": "17819b06-a7e8-4014-8dfd-f49006b67257",
+                    "type": "Process",
+                    "name": "Market",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAPaula\",\n    \"process\": \"Multi-Period-Market\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 24397.92643272883,
+                        "y": 25498.95429764959
+                      },
+                      "targetPosition": {
+                        "x": 24233.86618347795,
+                        "y": 25474.22619382305
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 24233.86618347795,
+                    "y": 25474.22619382305
+                  },
+                  "targetPosition": {
+                    "x": 23964.140863780874,
+                    "y": 25812.451046786577
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 23964.140863780874,
+                  "y": 25812.451046786577
+                },
+                "targetPosition": {
+                  "x": 23641.125102398495,
+                  "y": 26217.5
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            }
+          ],
+          "savedPayload": {
+            "position": {
+              "x": 23641.125102398495,
+              "y": 26217.5
+            },
+            "targetPosition": {
+              "x": 24580,
+              "y": 26217.5
+            },
+            "floatingObject": {
+              "isPinned": true,
+              "isFrozen": false,
+              "isCollapsed": true,
+              "isTensed": true
+            },
+            "uiObject": {}
+          }
+        },
+        {
+          "id": "55f31aa8-421a-466d-9535-3db4eacabce8",
+          "type": "Task Manager",
+          "name": "Tests & Live Trades Tasks",
+          "tasks": [
+            {
+              "id": "cddc97dd-ca2d-4b14-95ce-f15b6149996f",
+              "type": "Task",
+              "name": "Runs Backtests, Fordwardtests & Live Trades ",
+              "bot": {
+                "id": "1ca8bdb1-3417-4a10-930b-3eb19e636200",
+                "type": "Trading Engine",
+                "processes": [
+                  {
+                    "id": "072065fc-a57c-439c-94cf-f3f9c901ed37",
+                    "type": "Process",
+                    "name": "Multi Period",
+                    "code": "  {\n    \"team\": \"AAMasters\",\n    \"bot\": \"AAJason\",\n    \"process\": \"Multi-Period\",\n    \"repo\": \"AAJason-Trading-Engine-Bot\"\n  }",
+                    "savedPayload": {
+                      "position": {
+                        "x": 24580,
+                        "y": 24052.602082982165
+                      },
+                      "targetPosition": {
+                        "x": 24580,
+                        "y": 24436.52911690228
+                      },
+                      "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "isTensed": true
+                      },
+                      "uiObject": {}
+                    }
+                  }
+                ],
+                "savedPayload": {
+                  "position": {
+                    "x": 24580,
+                    "y": 24436.52911690228
+                  },
+                  "targetPosition": {
+                    "x": 24580,
+                    "y": 24980.984741037402
+                  },
+                  "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "isTensed": true
+                  },
+                  "uiObject": {}
+                }
+              },
+              "savedPayload": {
+                "position": {
+                  "x": 24580,
+                  "y": 24980.984741037402
+                },
+                "targetPosition": {
+                  "x": 24580,
+                  "y": 25765.94243088272
+                },
+                "floatingObject": {
+                  "isPinned": false,
+                  "isFrozen": false,
+                  "isCollapsed": false,
+                  "isTensed": true
+                },
+                "uiObject": {}
+              }
+            }
+          ],
+          "savedPayload": {
+            "position": {
+              "x": 24580,
+              "y": 25765.94243088272
+            },
+            "targetPosition": {
+              "x": 24580,
+              "y": 26217.5
+            },
+            "floatingObject": {
+              "isPinned": true,
+              "isFrozen": false,
+              "isCollapsed": true,
+              "isTensed": true
+            },
+            "uiObject": {}
+          }
+        }
+      ],
+      "savedPayload": {
+        "position": {
+          "x": 24580,
+          "y": 26217.5
+        },
+        "targetPosition": {
+          "x": 24580,
+          "y": 26217.5
+        },
+        "floatingObject": {
+          "isPinned": true,
+          "isFrozen": true,
+          "isCollapsed": false,
+          "isTensed": false
+        },
+        "uiObject": { "isDefault": true }
+      }
+    }
+  ]
+}
