@@ -38,7 +38,7 @@ We split the goal in two:
 
 ### Trading idea
 
-Identify breakouts of the Bollinger Bands (price going below the lower deviation band). Use %Bandwidth indicator to assess momentum and Bollinger Bands moving average to optimize the *take position event*, and filter out late entries.
+Identify break downs of the Bollinger Bands (price going below the lower deviation band). Use %Bandwidth indicator to assess momentum and Bollinger Bands moving average to optimize the *take position event*, and filter out late entries.
 
 ### Main Trades
 
