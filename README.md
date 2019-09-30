@@ -54,7 +54,7 @@ Identify break downs of the Bollinger Bands (price going below the lower deviati
 #### 2018 Oct-Dec
 ![Weak-hands-buster 2018 oct-dec](https://user-images.githubusercontent.com/13994516/65391772-517f9400-dd6d-11e9-8b16-e26f9694a5bf.png)
 
-#### 2019 Jan-Mar
+#### 2019 Jan-Aug
 ![Weak-hands-buster 2019](https://user-images.githubusercontent.com/13994516/65391566-f2208480-dd6a-11e9-82d4-4dc05e9a7e0a.png)
 
 # Disclaimer
