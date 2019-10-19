@@ -7,7 +7,11 @@ People not interested in trading automation may still obtain the strategy's rule
 
 ## Specifications
 
-JSON file compatible with the Superalgos Desktop App v.0.0.2
+JSON file compatible with the Superalgos Desktop App v.0.0.3
+
+### Description
+
+The strategy is dissected [in this article](https://hackernoon.com/how-to-increase-your-bitcoin-holdings-in-a-bear-market-part-1-kjwp2gwu).
 
 ### Current Performance in Backtests (Poloniex)
 
@@ -38,7 +42,7 @@ We split the goal in two:
 
 ### Trading idea
 
-Identify breakouts of the Bollinger Bands (price going below the lower deviation band). Use %Bandwidth indicator to assess momentum and Bollinger Bands moving average to optimize the *take position event*, and filter out late entries.
+The main trading idea is to identify short-term reversals as well as continuations and deepening of trends marked by a break down of the Bollinger Bands (BB) in the 1-hour chart, using the Percentage Bandwidth (%B) indicator, the Bollinger Bands Moving Average (BB MA) and the Bollinger Band deviation to assess momentum and volatility, optimize the take position event, and filter out late entries.
 
 ### Main Trades
 
